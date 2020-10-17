@@ -1,0 +1,11 @@
+<section>
+	<ul>
+		<li><b>{{ project.title }}</b> <span class="m-prevent-long-sentences">{{ project.description }}</span></li>
+		<li></li>
+		<li ng-repeat="note in project.notes">
+			<b>{{ note.start }}</b> <span class="m-prevent-long-sentences">{{ note.end }}</span>
+		</li>
+	</ul>
+	<a ng-href="/{{ prevProject.key }}"><i><</i></a> <a ng-href="/{{ nextProject.key }}"><i>></i></a>
+</section>
+<iframe src="{{ url }}" class="m-fade-on-load" frameborder="0" />

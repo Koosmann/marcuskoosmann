@@ -1,0 +1,56 @@
+/* GENERATED: DO NOT MODIFY! */
+html {
+  font-family: 'letter-gothic-std';
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 0.85em;
+  }
+}
+html,
+body,
+[data-ui-view] {
+  height: 100%;
+}
+a {
+  color: #47478F;
+}
+a:hover {
+  color: #00F;
+}
+a:active {
+  color: #9999ff;
+}
+ul {
+  padding: 0;
+}
+.m-fade-on-load,
+.fade {
+  -webkit-transition: .25s linear opacity;
+  -moz-transition: .25s linear opacity;
+  -o-transition: .25s linear opacity;
+  transition: .25s linear opacity;
+  opacity: 0;
+}
+.fade-active {
+  opacity: 1;
+}
+.fade-in.ng-enter,
+.fade-in.ng-leave {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+.fade-in.ng-enter,
+.fade-in.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+.fade-in.ng-leave,
+.fade-in.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+::selection {
+  background: #F5FF88;
+}
+.hidden {
+  display: none;
+}

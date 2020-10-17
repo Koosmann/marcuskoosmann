@@ -1,0 +1,12 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+.idea
+.DS_Store
+.nodemonignore
+.sass-cache/
+npm-debug.log
+node_modules/
+client/private/img
+app/tests/coverage/
+.bower-*/

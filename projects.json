@@ -1,0 +1,250 @@
+{
+	"projects": [
+		{
+			"key": "me",
+			"title": "Marcus Koosmann",
+			"description": "is a product designer who creates digital product experiences.",
+			"url": "http://www.marcuskoosmann.com",
+			"tech": "AngularJS, HTML5 Boilerplate, & PanelSnap",
+			"notes": [
+				{ 
+					"start": "This site is",
+					"end": "a portfolio of projects and experiments." 
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "it uses the custom 'mPreventLongSentences' directive to keep long sentences like this one short...."
+				},
+				{ 
+					"start": "The author enjoys", 
+					"end": "thinking by doing, fermentation, iGNANT, Juniper Ridge products, Cereal Magazine, & Rdio."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/me1.jpg",
+					"caption": "Starting a batch of pine iced tea (left) and me (right)."
+				}
+			]
+		}, {
+			"key": "smorgasborddaily",
+			"title": "Smörgåsbord Daily (WIP)",
+			"description": "is the last 24h of your favorite blogs in pictures delivered to your inbox.",
+			"url": "http://www.visitsmorgasbord.com/daily/53ac0bf24dd58f0200000017",
+			"tech": "AngularJS, NodeJS, MongoDB, ExpressJS, Redis, & many others",
+			"notes": [
+				{ 
+					"start": "This site",
+					"end": "serves you a creative meal you can quickly skim when you wake up." 
+				},
+				{ 
+					"start": "It exists to",
+					"end": "simplify Smorgasbord (below) and fit it into my morning routine of checking email."
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "the images tile neatly and responsively with no automated cropping."
+				}
+			],
+			"footnotes": [
+				{ 
+					"start": "Note:", 
+					"end": "This feature isn't live, so the link goes to my own page."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/smorgasborddaily1.jpg",
+					"caption": "Your page with all recent images from your favorite blogs."
+				},
+				{
+					"path": "/img/smorgasborddaily2.jpg",
+					"caption": "Every morning you get an email telling you what is updated."
+				}
+			]
+		}, {
+			"key": "updayt",
+			"title": "Updayt (WIP)",
+			"description": "is a once-every-morning messanger that helps you slow the internet down a bit.",
+			"url": "http://updayt-stage.herokuapp.com",
+			"tech": "MeanJS & Bootstrap",
+			"notes": [
+				{ 
+					"start": "This site exists because",
+					"end": "real-time feeds are amazing, but exhausting and not always necessary." 
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "all custom front- and back-end implementations are unit-tested."
+				},
+				{ 
+					"start": "Next on the docket:", 
+					"end": "the visual experience."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/updayt1.jpg",
+					"caption": "Updayts are emailed to followers at 5am PST (each user gets 1 email)."
+				},
+				{
+					"path": "/img/updayt2.jpg",
+					"caption": "Every day users can write one updayt."
+				}
+			]
+		}, {
+			"key": "kaprekarpet",
+			"title": "Kaprekarpet",
+			"description": "is a rug concept based on Kaprekar's number.",
+			"url": "http://kaprekarpet.herokuapp.com",
+			"tech": "AngularJS, HTML5 Boilerplate, & Good Ol' Fashioned Math",
+			"notes": [
+				{ 
+					"start": "This site exists because",
+					"end": "I needed a fast way to mock up color palettes." 
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "it's built with math."
+				},
+				{ 
+					"start": "It's also neat that",
+					"end": "rugs are basically made of pixels." 
+				}
+			],
+			"images": [
+				{
+					"path": "/img/kaprekarpet1.jpg",
+					"caption": "Colors &rarr;"
+				},
+				{
+					"path": "/img/kaprekarpet2.jpg",
+					"caption": "...change as the user &rarr;"
+				},
+				{
+					"path": "/img/kaprekarpet3.jpg",
+					"caption": "...inputs different values for each step."
+				}
+			]
+		}, {
+			"key": "smorgasbord",
+			"title": "Smörgåsbord",
+			"description": "is a beautiful, visual way to discover & digest amazing, creative blogs.",
+			"url": "http://www.visitsmorgasbord.com",
+			"tech": "AngularJS, NodeJS, MongoDB, ExpressJS, Redis, & many others",
+			"design": "Otto Boreson",
+			"notes": [
+				{ 
+					"start": "This site exists because",
+					"end": "RSS readers aren't visual enough."
+				},
+				{ 
+					"start": "This site also exists because",
+					"end": "readers that are visual get too crop-happy." 
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "it keeps it's library of feeds updated all day, every day."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/smorgasbord1.jpg",
+					"caption": "A Smörgåsbord is a visual mosaic for a fast introduction to the blog's style and other good info."
+				},
+				{
+					"path": "/img/smorgasbord2.png",
+					"caption": "Smörgåsbord has gone through many iterations and is currently a visual blog profile."
+				},
+				{
+					"path": "/img/smorgasbord3.jpg",
+					"caption": "Earlier versions of the site included a feed weight by recency of posts and your own taste."
+				},
+				{
+					"path": "/img/smorgasbord4.jpg",
+					"caption": "Users could document their favorite posts by taking 'snapshots'."
+				},
+				{
+					"path": "/img/smorgasbord5.jpg",
+					"caption": "Snapshots are framed with the cursor and saved with a click."
+				},
+				{
+					"path": "/img/smorgasbord6.jpg",
+					"caption": "Animated sidebar navigation."
+				},
+				{
+					"path": "/img/smorgasbord7.jpg",
+					"caption": "Snapshots are saved to your profile and contains links for each article in the mosaic."
+				}
+			]
+		}, {
+			"key": "promiser",
+			"title": "Promiser",
+			"description": "is a promise maker & reminder service for friends.",
+			"url": "http://www.promiserapp.com",
+			"tech": "AngularJS, NodeJS, MongoDB, ExpressJS, & Bootstrap",
+			"notes": [
+				{ 
+					"start": "This site exists because",
+					"end": "my friend @mantone and I wanted to build a fun, social product."
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "it uses madlibs-style forms with dynamically-sized inputs."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/promiser1.jpg",
+					"caption": "There are 4 different promise templates ('i' is instructions)."
+				},
+				{
+					"path": "/img/promiser2.png",
+					"caption": "Instructions on the front page."
+				},
+				{
+					"path": "/img/promiser3.jpg",
+					"caption": "Promises are comfirmed through email."
+				},
+				{
+					"path": "/img/promiser4.jpg",
+					"caption": "Promises are confirmed when completed."
+				},
+				{
+					"path": "/img/promiser5.png",
+					"caption": "Each promise has its own page with the status."
+				}
+			]
+		}, {
+			"key": "plaidform",
+			"title": "Plaidform",
+			"description": "is a scrollable, 2-dimensional tapestry of blogs and reblogs.",
+			"url": "http://www.plaidform.com",
+			"tech": "LAMP Stack, Google Feed API, & way too much jQuery...",
+			"notes": [
+				{ 
+					"start": "This site exists because",
+					"end": "Google Reader removed it's social sharing :("
+				},
+				{ 
+					"start": "It's neat that", 
+					"end": "I got it to work without using a more powerful framework."
+				}
+			],
+			"images": [
+				{
+					"path": "/img/plaidform1.jpg",
+					"caption": "Each column is either a blog or a friend's shared items."
+				},
+				{
+					"path": "/img/plaidform2.jpg",
+					"caption": "Articles can be read in this (overly skeuomorphic) popup."
+				},
+				{
+					"path": "/img/plaidform3.jpg",
+					"caption": "Manage your subscriptions, find feeds, follow friends, and see alerts in the sidebar."
+				}
+			]
+		}
+	]
+}

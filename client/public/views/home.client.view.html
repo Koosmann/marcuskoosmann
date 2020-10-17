@@ -1,0 +1,43 @@
+<section id="home" class="m-full-bleed panel-home" data-panel="home">
+	<ul id="menu" class="project-info">
+		<li ng-if="loading">Loading...</li>
+		<li class="hidden">
+			<a href='' data-panel="home"></a>
+		</li>
+		<li ng-repeat="project in projects | orderBy:'index'" class="fade-in">
+			<a href='' data-panel="{{ project.key }}" class="m-prevent-long-sentences {{ (params.project===project.key) && 'active' || '' }}"><b>{{ project.title }}</b> <span m-prevent="project.description"></span></a>
+		</li>
+	</ul>
+</section>
+<section id="{{ project.key }}" ng-repeat="project in projects | orderBy:'index'" class="m-full-bleed" data-panel="{{ project.key }}">
+	<ul class="project-info">
+		<li class="m-prevent-long-sentences">
+			<a href="{{ project.url }}" target="_blank"><b>{{ project.title }}</b></a> <span m-prevent="project.description"></span>
+		</li>
+		<br/>
+		<li ng-repeat="note in project.notes" class="m-prevent-long-sentences">
+			<small><b>{{ note.start }}</b> <span m-prevent="note.end"></span></small>
+		</li>
+		<li>
+			<ul class="project-footnotes">
+				<li ng-repeat="footnote in project.footnotes" class="very-small m-prevent-long-sentences">
+					<span><b>{{ footnote.start }}</b> <span m-prevent="footnote.end"></span></span>
+				</li>
+				<li ng-if="project.tech" class="very-small">
+					<span class="m-prevent-long-sentences"><b>Built<span ng-if="project.builtWith"> with <span ng-bind-html="project.builtWith"></span></span> using</b> <span m-prevent="project.tech"></span></span>
+					<span ng-if="project.design" class="m-prevent-long-sentences"><b>Designed with</b> <span ng-bind-html="project.design"></span></span>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<div ng-if="project.images" class="images m-carousel" ng-init="length=project.images.length">
+		<div class="images-nav very-small m-prevent-long-sentences">
+			<button ng-if="length-1" class='m-image-nav m-prev' ng-click="prev()"><</button>
+			<span ng-repeat="image in project.images" class="caption fade m-prevent" ng-class="{ 'fade-active': i=={{$index}} }" ng-bind-html="image.caption"></span>
+			<button ng-if="length-1" class='m-image-nav m-next' ng-click="next()">></button>
+		</div>
+		<div class="image">
+			<img ng-repeat="image in project.images" ng-src="{{ image.path }}" class="fade" ng-class="{ 'fade-active': i=={{$index}} }" />
+		</div>
+	</div>
+</section>
